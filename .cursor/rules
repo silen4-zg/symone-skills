@@ -1,0 +1,11 @@
+# SYMONE API rules for Cursor
+
+API base: https://symone.fr/api-proxy
+No authentication required for public endpoints.
+
+Search routes: GET /route/get/results (returns all, filter client-side)
+Paris-Marseille cache: GET /route/paris-marseille-cache
+Cities near: GET /route/cities-near?location=Paris
+
+Docs: https://symone.fr/api/index.md
+OpenAPI: https://symone.fr/openapi.json
