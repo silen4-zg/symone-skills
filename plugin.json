@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "symone",
+  "version": "1.3.0",
+  "description": "SYMONE long-distance motorcycle transport in France (Paris - Marseille and more): four agent skills (trip search, trip planning, API integration, documentation answers) plus the SYMONE trip-search and documentation MCP servers. Public, no API key; booking and payment stay on symone.fr.",
+  "author": {
+    "name": "SYMONE SAS",
+    "email": "contact@symone.fr",
+    "url": "https://symone.fr"
+  },
+  "homepage": "https://symone.fr/developers",
+  "repository": "https://github.com/silen4-zg/symone-skills",
+  "license": "MIT",
+  "keywords": [
+    "symone",
+    "motorcycle",
+    "moto",
+    "motorcycle-transport",
+    "travel",
+    "france",
+    "paris",
+    "marseille",
+    "mcp",
+    "agent-skills"
+  ]
+}

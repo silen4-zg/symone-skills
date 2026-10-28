@@ -1,11 +1,12 @@
 # SYMONE API rules for Cursor
 
-API base: https://symone.fr/api-proxy
-No authentication required for public endpoints.
+See AGENTS.md at the repository root.
 
-Search routes: GET /route/get/results (returns all, filter client-side)
-Paris-Marseille cache: GET /route/paris-marseille-cache
-Cities near: GET /route/cities-near?location=Paris
+API base: https://symone.fr/api-proxy/v1 (sandbox: https://symone.fr/api-proxy/v1/sandbox). No authentication.
+Trip search: GET /route/ai/search?depart=&arrival=&date_from=YYYY-MM-DD&date_to=YYYY-MM-DD&limit=&cursor=
+Nearby cities: GET /route/cities-near?location=
+Errors: JSON {"error": "message"}; on 429 wait Retry-After and retry once.
+MCP: https://symone.fr/mcp (trips), https://symone.fr/docs/mcp (docs).
+The API is read-only: booking only on https://symone.fr/moto.
 
-Docs: https://symone.fr/api/index.md
-OpenAPI: https://symone.fr/openapi.json
+Docs: https://symone.fr/developers - OpenAPI: https://symone.fr/openapi.json

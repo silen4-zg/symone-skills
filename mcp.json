@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "symone": {
+      "type": "streamable-http",
+      "url": "https://symone.fr/mcp"
+    },
+    "symone-docs": {
+      "type": "streamable-http",
+      "url": "https://symone.fr/docs/mcp"
+    }
+  }
+}
